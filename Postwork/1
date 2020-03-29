@@ -1,0 +1,25 @@
+##Observamos en donde estamos en la consola
+>>pwd
+
+##Checamos que información tenemos
+>>ls
+
+##Nos movemos al escritorio
+cd Desktop/
+
+##Creamos una carpeta, llamada Mi_Proyecto
+mkdir Mi_Proyecto
+
+##Bajamos un archivo en https://github.com/Zamby92/Parte2.git
+curl  https://drive.google.com/file/d/19EWWRrPQUpOIPP5CQCbAe2MxF-yeF4yD/view
+
+##*Nota: No se puedo descargar el archivo, lo descargamos manualmente
+
+##Movemos el archivo a la carpeta Mi_proyecto
+mv Municipal-Delitos-2015-2020_ene2020.zip > cd C:/Desktop/Introduccion-a-Base-de-Datos/Mi_Proyecto/
+
+##Descargamos el zip
+unzip Municipal-Delitos-2015-2020_ene2020.zip
+
+##Borramos el archivo zip
+rm Municipal-Delitos-2015-2020_ene2020.zip
